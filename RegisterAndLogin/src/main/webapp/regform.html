@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	body{
+		background-color: black;
+		color: white;
+	}
+	h1{
+		text-align: center;
+		color: red;
+	}
+	#main{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	#center{
+		width: 400px;
+		height: 550px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: ghostwhite;
+		color: black;
+		border-radius: 20px 25px;
+	}
+	button{
+		width: 180px;
+		border: 2px solid limegreen;
+		background-color: lime;
+		border-radius: 4px 4px;
+		font-size: 20px;
+		font-weight: 700;
+	}
+	dt{
+		font-size: 20px;
+		font-weight: 600;
+	}
+</style>
+</head>
+<body>
+	<div id="main">
+	<div id="center">
+		<form method="POST" action="reg">
+			<h1><u>Register Form</u></h1>
+			<dl>
+				<dt>Name</dt>
+				<dd><input type="text" name="name"></dd>
+				<dt>Contact</dt>
+				<dd><input type="text" name="contact"></dd>
+				<dt>Email Id</dt>
+				<dd><input type="email" name="email"></dd>
+				<dt>Address</dt>
+				<dd>
+					<textarea name="address" rows="5" cols="20">
+					</textarea>
+				</dd>
+				<dt>Password</dt>
+				<dd><input type="password" name="password"></dd> <br>
+				<dd><button>Register</button></dd>
+			</dl>
+			Already have account? <a href="logform.html">Login</a>
+		</form>
+	</div>
+	</div>
+</body>
+</html>

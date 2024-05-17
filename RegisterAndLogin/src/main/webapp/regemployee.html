@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+ <style>
+	 h1{
+		 text-align: center;
+	 }
+	 #center{
+		 display: flex;
+		 justify-content: center;
+		 align-items: center;
+	 }
+	 form button{
+		 width: 100px;
+		 
+	 }
+ </style>
+</head>
+<body>
+	<h1><u>Employee Registration</u></h1>
+	<div id="center">
+		<form method="post" action="./save">
+		<p>Employee Id <input type="text" name="id"></p>
+		<p>Employee Name <input type="text" name="name"></p>
+		<p>Employee Age <input type="number" name="age"></p>
+		<p>Department
+			<select name="department">
+				<option value="devlopment">Devlopment</option>
+				<option value="testing">Testing</option>
+				<option value="hr">HR</option>
+				<option value="manager">Manager</option>
+			</select>
+		</p>
+		<p>Salary <input type="number" name="salary"></p>
+		<button>Save</button>
+	</form>
+	</div>
+</body>
+</html>
