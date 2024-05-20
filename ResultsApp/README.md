@@ -1,4 +1,4 @@
-#Output
+# Output
 ![r1](https://github.com/BhanuChandar22/servletprojects/assets/137188404/70696734-1014-4283-80dd-242823bac59d)
 
 ![r2](https://github.com/BhanuChandar22/servletprojects/assets/137188404/06e91f0c-bb21-4258-b1fd-d04a6978cb5e)
